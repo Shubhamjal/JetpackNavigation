@@ -49,7 +49,7 @@ class Fragment1 : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.btnNext.setOnClickListener{
-            findNavController().navigate(R.id.fragment1)
+            findNavController().navigate(R.id.fragment2)
         }
     }
 
